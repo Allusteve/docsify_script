@@ -33,7 +33,8 @@ var install = function (hook, vm) {
         } else {
             document.getElementById('last-modified').textContent = CONFIG.preString + time;
         }
-        return ('<div align= ' + CONFIG.align + '><span id="last-modified"></span></div>'+
+        return ('\n' +
+                '<div align= ' + CONFIG.align + '><span id="last-modified"></span></div>'+
                 '\n' +
                 html);
     });

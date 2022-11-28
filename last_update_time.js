@@ -17,7 +17,7 @@ var install = function (hook, vm) {
     hook.beforeEach(function(html) {
         var time = '{docsify-updated}';
         if (CONFIG.repo !== '') {
-            var date_url = 'https://api.gitee.com/repos/' + CONFIG.repo + '/commits?per_page=1';
+            var date_url = 'https://api.github.com/repos/' + CONFIG.repo + '/commits?per_page=1';
             
             if (CONFIG.basePath !== '') {
                 date_url = date_url + '&path=' + CONFIG.basePath + vm.route.file;

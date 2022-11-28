@@ -1,7 +1,7 @@
 var CONFIG = {
     repo: '',
     basePath: 'docs/',
-    preString: 'Last modified:',
+    preString: '>Last modified:',
     dateFormat: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
     align: 'right',
 };

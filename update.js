@@ -1,9 +1,20 @@
 // Docsify plugin default values
 let defaultDocsifyUpdatedOptions = {
-  text: ">Last Modify: ",
+  text: ">Last Modified: ",
   formatUpdated: "{YYYY}/{MM}/{DD}",
   whereToPlace: "bottom"
 }
+
+var CONFIG = {
+    repo: 'Allusteve/notes',
+    basePath: 'docs/',
+    preString: 'Last modified:',
+    dateFormat: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
+    align: 'right',
+};
+
+
+
 
 // Docsify plugin functions
 function plugin(hook, vm) {
